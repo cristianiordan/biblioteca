@@ -1,0 +1,19 @@
+.book,
+.favorite-books,
+.favorite-great-books {
+  display: flex;
+  height: min-content;
+}
+
+.book-name,
+.remove {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 5px;
+  margin-bottom: 5px;
+  height: 100%;
+}
